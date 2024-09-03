@@ -1,10 +1,5 @@
 let proxId = 1;
 
-let apenasNumeros = true;
-if (isNaN(parseInt(body.ano))) {
-  apenasNumeros = false;
-}
-
 const model = (body, id = proxId++) => {
   if (
     body.nome != undefined &&
@@ -14,8 +9,7 @@ const model = (body, id = proxId++) => {
     body.curso != undefined &&
     body.curso != "" &&
     body.ano != undefined &&
-    body.ano != "" &&
-    apenasNumeros
+    body.ano != ""
   ) {
     return {
       id,
