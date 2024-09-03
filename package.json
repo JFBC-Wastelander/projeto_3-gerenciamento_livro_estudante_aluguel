@@ -1,0 +1,19 @@
+{
+  "name": "projeto_3-gerenciamento_livro_estudante_aluguel",
+  "version": "1.0.0",
+  "description": "CRUD de livros e estudantes com aluguel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
