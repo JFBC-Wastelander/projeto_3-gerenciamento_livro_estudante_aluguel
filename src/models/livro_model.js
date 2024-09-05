@@ -22,3 +22,4 @@ const model = (body, id = proxId++) => {
 };
 
 module.exports = model;
+
